@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid task</title>
+    <style>
+    .container{
+        display: grid;
+        margin: 100px;
+        padding:2px;
+        background-color: rgb(230, 221, 221);
+        box-sizing: border-box;
+        border-radius:5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        grid-template-columns: 1fr 2fr 1fr 5fr;
+        
+        }
+    .item{
+        background-color: rgba(233, 251, 255, 0.931);
+            padding: 10px;
+            font-size: 25px;
+           
+
+    }
+    .a{
+        background-color: chocolate;
+        border-radius: 10px;
+        text-align: center;
+               
+    
+    }
+    .bc{
+        display:block;
+    }
+    .b{
+        
+        background-color: aqua;
+        border-radius: 10px;
+    }
+    .c{
+        
+        background-color: rgb(168, 20, 97);
+        border-radius: 10px;
+        
+    }
+    .d{
+        background-color: rgb(40, 209, 96);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item a">header</div>
+        <div class="bc">
+        <div class="item b">main</div>
+        <div class="item c">sidebar</div>
+    </div>
+        <div class="item d">footer</div>
+
+    </div>
+    
+</body>
+</html>
